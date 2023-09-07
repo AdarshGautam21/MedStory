@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+//import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import { logo } from '../../assets';
 import './navbar.css';
 
@@ -24,9 +24,9 @@ const Navbar = () => {
         <button type="button">Connect Wallet</button>
       </div>
       <div className="gpt3__navbar-menu">
-        {toggleMenu
+{/*         {toggleMenu
           ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
+          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />} */}
         {toggleMenu && (
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
